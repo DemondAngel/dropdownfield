@@ -49,7 +49,7 @@ class DropDownField extends FormField<String> {
   final TextStyle textStyle;
   final bool required;
   final bool enabled;
-  final List<dynamic> items;
+  final List<String> items;
   final List<TextInputFormatter> inputFormatters;
   final FormFieldSetter<dynamic> setter;
   final ValueChanged<dynamic> onValueChanged;
